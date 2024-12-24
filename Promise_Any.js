@@ -1,3 +1,4 @@
+// Promise.any Polyfill
 function promiseAny(numOfPromises) {
   return new Promise((resolve, reject) => {
     if (numOfPromises.length === 0) {
