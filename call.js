@@ -1,5 +1,6 @@
+// The call method in javascript lets users reuse this function on different objects
 // By using the call method in javascript, we can call a function
-//by explicitly setting the context of the "this" in the function and its arguments
+//by explicitly setting the context of the "this" in the function and its arguments(optional)
 
 // Function to calculate total price with an optional discount
 function calculateTotalPrice(discount) {

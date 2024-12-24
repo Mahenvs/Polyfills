@@ -16,7 +16,10 @@ Function.prototype.myBind = function(...args){
     params = args.slice(1)//the result would be an array
     return function(...args2){
         // obj.call(args[0])
-        obj.apply(args[0],[...params,...args2]) //we are using apply, because params would be an array. So the apply method takes the second argument as an array, so we have to use apply method
+        obj.apply(args[0],[...params,...args2])
+         //we are using apply, because params would be an array.
+        //  So the apply method takes the second argument as an array, 
+        // so we have to use apply method
     }
 }
 
