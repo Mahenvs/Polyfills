@@ -31,7 +31,9 @@ function sayHello() {
   console.log("My name is", this.name);
 }
 
-function getMyGitData() {
+function getMyGitData(arg1) {
+  console.log(arg1);
+
   console.log(document.getElementById("name").value);
 
   fetchGitUser(document.getElementById("name").value);
